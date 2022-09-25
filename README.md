@@ -21,5 +21,13 @@ LIO-SAM 回环检测部分可参考 [LIO-SAM源码解析(四)：MapOptimization]
   - /current_pose
  ### Run the packge
  `` roslaunch lidar_localizer ndt_mapping.launch  ``
-   
+ 
+ NDT map with loop closure：
+ ![NDT map with loop closure](https://github.com/jiaying001/ndt-mapping-with-loop-closure/blob/main/img/NDT%20map%20with%20loop%20closure.png)
+
+ keyframe pose：   
+ ![keyframe pose](https://github.com/jiaying001/ndt-mapping-with-loop-closure/blob/main/img/keyframe%20pose.png)
+ 
+ NDT pose trajectory：
+ ![NDT pose trajectory](https://github.com/jiaying001/ndt-mapping-with-loop-closure/blob/main/img/NDT%20pose%20trajectory.png)
 
