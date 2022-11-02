@@ -284,7 +284,7 @@ void ndt_mapping::points_callback(const sensor_msgs::PointCloud2::ConstPtr& inpu
   namefilepose<< current_pose_msg_.pose.pose.orientation.y<<" ";
   namefilepose<< current_pose_msg_.pose.pose.orientation.z<<" ";
   namefilepose<< current_pose_msg_.pose.pose.orientation.w;
-  namefilepose<<endl;
+  namefilepose<<std::endl;
   namefilepose.close();
 
   auto end = std::chrono::system_clock::now();
